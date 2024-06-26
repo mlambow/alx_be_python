@@ -8,6 +8,6 @@ match priority:
     case "low":
         note = f"'{task}' is a low priority task. Consider completing it when you have free time."
 if time_bound == "yes":
-    print(f"Reminder: {reminder}")
+    print(f"Reminder:, {reminder}")
 else:
     print(f"Note: {note}")
