@@ -14,7 +14,7 @@ def convert_to_fehrenheit(celsuis):
 def main():
     try:
         temperature = float(input("What is your temperature?: "))
-        weather = input("Is this weather in Celsuis or Fahrenheit? (C/F): ").capitalize()
+        weather = input("Is this temperature in Celsuis or Fahrenheit? (C/F): ").capitalize()
 
         if weather == 'C':
             converted_temperature = convert_to_fehrenheit(temperature)
