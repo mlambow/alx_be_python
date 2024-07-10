@@ -4,8 +4,8 @@ def safe_divide(numerator, denominator):
         deno = float(denominator)
         num / deno
     except ZeroDivisionError:
-        print("Cannot divide by zero")
+        print("Error: Cannot divide by zero.")
     except ValueError:
-        print("Please enter numeric values only")
+        print("Error: Please enter numeric values only")
     else:
         print()
