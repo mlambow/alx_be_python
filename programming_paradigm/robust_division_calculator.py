@@ -1,11 +1,11 @@
 def safe_divide(numerator, denominator):
     try:
-        num = numerator
-        deno = denominator
+        num = float(numerator)
+        deno = float(denominator)
         num / deno
     except ZeroDivisionError:
-        print("You can not divide by zero")
+        print("Cannot divide by zero")
     except ValueError:
-        print("Please insert a number")
+        print("Please enter numeric values only")
     else:
         print()
