@@ -1,16 +1,13 @@
 class BankAccount:
-    def __init__(self, account_balance):
-        self.account_balance = account_balance
-        account_balance = 0
+    def __init__(self, initial_balance=0):
+        self.account_balance = initial_balance
 
-    def deposit(self):
-        amount = float(input("Enter amount to be deposited: "))
+    def deposit(self, amount):
         self.account_balance += amount
-        print(f"Amount Deposited: ", amount)
 
-    def withdraw(self):
-        amount = float(input("Enter amount to withdrawn: "))
+    def withdraw(self, amount):
         if self.account_balance >= amount:
+            self.account_balance -= amount
             return True
         else:
             return False
