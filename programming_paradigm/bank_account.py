@@ -16,4 +16,4 @@ class BankAccount:
             return False
 
     def display_balance(self):
-        print(f"Net Available balance = ", self.account_balance)
+        print(f"Current Balance: ", self.account_balance)
