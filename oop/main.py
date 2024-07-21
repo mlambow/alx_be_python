@@ -23,12 +23,12 @@ def main():
     my_libary = Library()
 
     #Create instance of each type of book
-    classic_book = Book("Pride and Prejudice", "Jane Austen")
+    #classic_book = Book("Pride and Prejudice", "Jane Austen")
     digital_novel = EBook("Snow Crash", "Neal Stephenson", 500)
     #paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
 
     #Add books to the library
-    my_libary.add_book(classic_book)
+    #my_libary.add_book(classic_book)
     my_libary.add_book(digital_novel)
     #my_libary.add_book(paper_novel)
 
