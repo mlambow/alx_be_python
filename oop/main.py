@@ -1,6 +1,6 @@
 import math
 from book_class import Book
-from library_system import Book, EBook, PrintBoook, Library
+from library_system import Book, EBook, PrintBook, Library
 from polymorphism_demo import Shape, Rectangle, Circle
 from class_static_methods_demo import Calculator
 
@@ -25,7 +25,7 @@ def main():
     #Create instance of each type of book
     classic_book = Book("Pride and Prejudice", "Jane Austen")
     digital_novel = EBook("Snow Crash", "Neal Stephenson", 500)
-    paper_novel = PrintBoook("The Catcher in the Rye", "J.D. Salinger", 234)
+    paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
 
     #Add books to the library
     my_libary.add_book(classic_book)
